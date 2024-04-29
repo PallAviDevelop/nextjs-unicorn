@@ -1,0 +1,346 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo{
+
+}
+.nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+.navList{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer{
+  background: url('../images/BG.png');
+  width: 100%;
+  background-position:left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 6rem auto 0 auto;
+  color: #fff;
+  height:380px;
+  padding: 50px 30px 20px;
+}
+.footerLink{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto 25px;
+}
+.footerLink ul:first-child
+{    width: calc(450% / 5 - 5px);}
+.footerLink ul:last-child li{
+
+}
+.footerLink ul
+{ 
+width: calc(350% / 5 - 10px);
+}
+.footerLink ul:last-child h3{
+
+}
+.footerLink ul:last-child{
+  width: calc(450% / 5 - 5px);
+    display: block;
+    justify-content: space-between;
+}
+.footerLink ul:last-child li
+{
+  display: inline-block;
+  padding: 10px;
+}
+.footerLink ul h3::before
+{ content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 25px;
+  background: #d14b4b;
+}
+.footerLink ul h3
+{
+  position: relative;
+}
+.footerCopy{
+  text-align: center;
+    padding: 20px 0px 0;
+    border-top: 1px solid #686868dd;
+    display: none;
+}
+.shape-fill {
+  fill: #FFFFFF;
+}
+.outerBanner{
+  background-image: url('../images/banner.png');
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+.banner{
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  padding: 13rem 3rem;
+  align-items: center;
+  margin: 0 auto;
+  gap: 600px;
+}
+.outerBanner h3{color: #0D86C1;}
+.commonBgBanner{
+  background: linear-gradient(-45deg, #04133e, #013773, #414db7);
+  width: 100%;
+  position: relative;
+  height: 20rem;
+}
+.layerstyle
+{position: absolute; 
+  bottom: 0;
+  left: 0;
+width: 100%; 
+ overflow: hidden; 
+ line-height: 0;}
+
+.bannertitle{     display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 3rem;
+  align-items: center;
+  /* gap: 13px; */
+}
+.l_sec{
+
+}
+h1.l_sec {
+  color: #fff;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.l_sec h1{
+  color: #fff;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+.l_sec p{
+  color: #fff;
+}
+.r_sec{
+
+}
+.r_sec img{
+  max-width: 400px;
+  border-radius: 50%;
+}
+.react-multi-carousel-item{
+  display: flex;
+  justify-content: space-around !important;
+}
+.bgImg{
+  background: url('/images/Our Network.png');
+}
+.contact-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 10px auto 0px;
+  border: 1px solid #eeee;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px 0px;
+}
+.contactoutter{
+  width: 50%;
+    margin: 0 auto;
+}
+.contactoutter h3{
+  text-align: center;
+}
+
+.contact-form input, .contact-form textarea{
+  display: block;
+  border: none;
+  width: 100%;
+  margin-bottom: .5rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.outermovie-wrapper{
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 3rem 3rem;
+}
+.outermovie-wrapper h2{
+  font-size: 25px;
+  font-weight: 800;
+  width: 30%;
+  text-align: center;
+  border-bottom: 3px solid #e31414;
+  margin: 0 auto 20px;
+}
+
+.space-box{
+  padding: 10px 15px 15px; 
+}
+.space-box h1{
+  font-weight: 800;
+  font-size: 18px;
+}
+.btn-movie
+{
+  background-color: #161617;
+  border-radius: 2.4rem;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0.3rem 1.2rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  letter-spacing: -0.1rem;
+}
+.card-section{
+  width: 100%;
+  display: flex;
+  gap: .5rem;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #90caf9; */
+  flex-wrap: wrap;
+}
+.cardBox{
+  max-width: 15rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 0.8rem;
+  background-color: #ededed;
+  min-height: 290px;
+  margin-bottom: 20px;
+}
+.space-box p{
+  padding-bottom: 10px;
+}
+.cardBox img{
+  max-width: 100%;
+  height: auto;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+}
+
+.contain{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.movie_title{
+  font-size: 25px;
+}
+.movie_title span{
+color: red;
+}
+
+.card_section{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.leftemovi{
+
+}
+
+.rightmovi h1{
+font-size: 25px;
+font-weight: 800;
+}
+.cardoutter{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 55px;
+}
+
+.cardbox{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  grid-gap: 5rem;
+  gap: 5rem;
+}
+.card-box{
+  padding: 2rem 4rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #fff;
+}
+.card-box i
+{
+  color: red;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*loading page style */
+
+.loading_section{
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+.loading {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.loading:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid #e50914;
+  border-color: #e50914 transparent #e50914 transparent;
+  animation: loading 1.2s infinite;
+}
+@keyframes loading {
+  0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+      transform: rotate(1800deg);
+  }
+}
