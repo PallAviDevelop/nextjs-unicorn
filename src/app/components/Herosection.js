@@ -8,8 +8,10 @@ import CertificateSlide from "./certificateSlide/page.js";
 const Herosection = ({ title, heading, des }) => {
   return (
     <>
-      <div className={style["outerBanner"]}>
-        <div className="w-[100%] md:w-[80%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] px-6 py-10">
+    <section className="center w-full">
+    <div className={style["outerBanner"]}>
+      <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+        <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] py-10">
           <div className="u-max-w-[480px] u-space-y-2 u-leading-tight">
             <h1 className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
               {title}
@@ -44,11 +46,13 @@ const Herosection = ({ title, heading, des }) => {
           </div>
         </div>
       </div>
+      </div>
+      </section>
       <section>
         <h2 className="mt-[1.5rem] text-center text-[28px] text-black font-semibold mb-4">
           Best seller Products
         </h2>
-        <ul className="w-[100%] md:w-[80%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[1rem] px-4">
+        <ul className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[1rem] px-4">
           {bestseller.map((item, i) => (
             <li className="bg-base-300 card mb-4" key={i}>
               {" "}
@@ -64,16 +68,18 @@ const Herosection = ({ title, heading, des }) => {
           ))}
         </ul>
       </section>
-      <section className={style.mapwrap}>
+      <section className="center w-full">
+        <div className={style.mapwrap}>
         <div className="pt-[1rem] pb-[3rem]">
         <h3 className="mt-[1.5rem] text-center text-[28px] text-white font-semibold mb-4">Network</h3>
           <div className="w-[90%] md:w-[80%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
         
         </div>
       </div>
+      </div>
       </section>
-      <section>
-        <div className="pt-[1rem] pb-[3rem]">
+      <section className="w-full" style={{backgroundColor:'#EDF8FD'}}>
+        <div className="pt-[1rem] pb-[1rem]">
           <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
             Why Choose Us
           </h2>
@@ -83,9 +89,9 @@ const Herosection = ({ title, heading, des }) => {
               data-aos-anchor-placement="top-center"
               className="aos-init aos-animate"
             >
-              <div className="p-6 hover:bg-white rounded-lg transition-all duration-200">
+              <div className="p-6">
                 <Image
-                  className="h-full w-auto mx-auto px-2"
+                  className="h-full w-full mx-auto px-2"
                   src="/Fish1.png"
                   width={350}
                   height={252}
@@ -99,7 +105,7 @@ const Herosection = ({ title, heading, des }) => {
               data-aos-anchor-placement="top-center"
               className="aos-init aos-animate"
             >
-              <div className="py-6 hover:bg-white lg:translate-y-[1rem] rounded-lg transition-all duration-200">
+              <div className="py-6 lg:translate-y-[1rem]">
                 {/* <h1 className="mt-[1.5rem] text-center text-[24px] text-black font-semibold">
                   Your Opinion is Important
                 </h1> */}
@@ -127,9 +133,37 @@ const Herosection = ({ title, heading, des }) => {
         </div>
       </section>
       <section>
-        <div className="w-[90%] md:w-[80%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+      <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 justify-center">
+  {/* <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512"/> */}
+  <Image
+                  className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+                  src="/Fish1.png"
+                  width="384" height="512"
+                  alt="logo"
+                />
+  <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p class="text-lg font-medium">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
+    <figcaption class="font-medium">
+      <div class="text-sky-500 dark:text-sky-400">
+        Sarah Dayan
+      </div>
+      <div class="text-slate-700 dark:text-slate-500">
+        Staff Engineer, Algolia
+      </div>
+    </figcaption>
+  </div>
+</figure>
+      </section>
+      <section className="container">
+        <div className="w-[90%] md:w-[80%] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
           <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
-            Why Choose Us
+          Certificates
           </h2>
           <p className="mt-[1rem] text-black text-opacity-60 text-center">
             We ensure the products are certified with necessary quality
@@ -140,6 +174,11 @@ const Herosection = ({ title, heading, des }) => {
           <div>
             <CertificateSlide />
           </div>
+        </div>
+      </section>
+      <section className="center w-full">
+        <div className={style.bgNavyBlue}>
+          <span className="w-[90%] md:w-[70%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]"><h2>Need help. Contact our experts.</h2><button className={style.btn}>Schedule a Call </button></span>
         </div>
       </section>
     </>

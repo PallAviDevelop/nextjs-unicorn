@@ -30,7 +30,7 @@
   background-position:left center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 6rem auto 0 auto;
+  margin: 0 auto;
   color: #fff;
   height:380px;
   padding: 50px 30px 20px;
@@ -91,7 +91,8 @@ width: calc(350% / 5 - 10px);
   width: 100%;
   position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top center;
+  background-size: contain;
   height: 750px;
 }
 .banner{
@@ -161,6 +162,29 @@ h1.l_sec {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.bgNavyBlue{
+  background-color: #013773;
+  color: #fff;
+}
+.bgNavyBlue h2{
+  font-size: 31px;
+}
+.react-multi-carousel-track, .carousel-container {
+  margin: 0px 0px 45px !important;
+}
+.bgNavyBlue button.btn{
+background-color: #0D86C2;
+color: #fff;
+border-radius: 2px;
+padding: 5px 15px;
+}
+.bgNavyBlue span
+{
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 20px 30px;
 }
 .contact-form{
   display: flex;

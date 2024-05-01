@@ -1,24 +1,4 @@
 "use client"
-// import React from 'react'
-// import Image from 'next/image'
-// import Nav from './Nav'
-// import style from '@/app/styles/common.module.css'
-// import Link from 'next/link'
-
-// const Header = () => {
-//   return (
-//     <div className=''>
-//       <div className={style.header}>
-//         <div className={style.logo}>
-//           <Link href='/'><Image src='/logo.png' width={169} height={52} alt='logo'/></Link>
-//         </div>
-//         <Nav />
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Header
 import React from 'react'
 import Image from 'next/image'
 import Nav from './Nav'
@@ -60,11 +40,7 @@ export default function Header() {
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-        <Link className="-m-1.5 p-1.5" href='/'><Image className="h-8 w-auto" src='/logo.png' width={169} height={52} alt='logo'/></Link>
-          {/* <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-          </a> */}
+        <Link className="-m-1.5 p-1.5" href='/'><Image className="h-11 w-auto" src='/logo.png' width={169} height={52} alt='logo'/></Link>
         </div>
         <div className="flex lg:hidden">
           <button
