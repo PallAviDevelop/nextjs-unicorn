@@ -25,7 +25,7 @@
 }
 
 .footer{
-  background: url('../images/BG.png');
+  background: url('../images/BG-Footer.png');
   width: 100%;
   background-position:left center;
   background-size: cover;
@@ -34,6 +34,16 @@
   color: #fff;
   height:380px;
   padding: 50px 30px 20px;
+}
+h3.Cattitle:before {
+  background: none repeat scroll 0 0 #007bff;
+  content: "";
+  display: block;
+  height: 35px;
+  position: absolute;
+  width: 3px;
+  margin: 0px -15px;
+  padding: 0px;
 }
 .footerLink{
   display: flex;

@@ -63,7 +63,7 @@ const Herosection = ({ title, heading, des }) => {
                 height={200}
                 alt="imgseller"
               />
-              <h3>{item.name}</h3>
+              <h3 className={style.Cattitle}>{item.name}</h3>
             </li>
           ))}
         </ul>
@@ -91,7 +91,7 @@ const Herosection = ({ title, heading, des }) => {
           <div className="col-span-12 lg:col-span-7" data-v-b444fb2c="">
             <div className="w-full" data-v-b444fb2c="">
               <Image
-                className="w-[95%]"
+                className="w-[90%] py-10 mx-auto p-10"
                 src="/Fish1.png"
                 width={350}
                 height={252}
