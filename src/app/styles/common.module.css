@@ -189,9 +189,9 @@ h1.l_sec {
   width: 100%;
     position: relative;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-size: contain;
-    height: 932px;
+    height: 923px;
     margin: 0 auto;
 }
 .bgNavyBlue{
