@@ -87,7 +87,7 @@ width: calc(350% / 5 - 10px);
   fill: #FFFFFF;
 }
 .outerBanner{
-  background-image: url('../images/banner.png');
+  background-image: url('../images/Banner-img.png');
   width: 100%;
   position: relative;
   background-repeat: no-repeat;
