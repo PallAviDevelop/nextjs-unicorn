@@ -87,13 +87,14 @@ width: calc(350% / 5 - 10px);
   fill: #FFFFFF;
 }
 .outerBanner{
-  background-image: url('../images/Banner-img.png');
+  background-image: url('../images/Bannerimg.png');
   width: 100%;
   position: relative;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  height: 750px;
+  height: 100%;
+  margin: 0 auto;
 }
 .banner{
   max-width: 1400px;
