@@ -30,7 +30,7 @@ const CertificateSlide = () => {
     <div className='text-center py-10'>
   <Carousel
   swipeable={TRACE_OUTPUT_VERSION}
-  draggable={false}
+  draggable={true}
   showDots={false}
   responsive={responsive}
   ssr={true} // means to render carousel on server-side.
@@ -47,7 +47,7 @@ const CertificateSlide = () => {
   itemClass="carousel-item-padding-40-px"
 >
 {certificate.map((item,i)=>(<>
-  <div className='w-[200px] mx-auto h-[200px]' key={i}><Image className="h-auto w-auto" src={item.imgcert} width={169} height={52} alt='gmp logo'/></div>
+  <div className='w-[200px] mx-auto h-[200px] flex justify-center items-center' key={i}><Image className="h-auto w-auto" src={item.imgcert} width={169} height={52} alt='gmp logo'/></div>
   </>)
 )}
 

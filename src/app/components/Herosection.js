@@ -103,13 +103,15 @@ const Herosection = ({ title, heading, des }) => {
             className="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20"
             data-v-b444fb2c=""
           >
-            <p className="paragraph" data-v-b444fb2c="">
+            {/* <p className="paragraph" data-v-b444fb2c="">
             <span className="text-sky-500 i">At Unicorn Seafoods</span>, we transcend the ordinary to offer an extraordinary seafood experience. Our commitment to excellence starts from the source, with direct partnerships ensuring the freshest catch from fishermen and farmers worldwide.
-            </p>{" "}
+            </p>{" "} */}
             <ul className="space-y-4 sm:space-y-2" data-v-b444fb2c="">
               <li className="space-y-2" data-v-b444fb2c="">
                 <div className="flex items-center space-x-2">
-                 
+                 <span>
+                 <span className="text-sky-500 i">At Unicorn Seafoods</span>, we transcend the ordinary to offer an extraordinary seafood experience. Our commitment to excellence starts from the source, with direct partnerships ensuring the freshest catch from fishermen and farmers worldwide.
+                 </span>
                  
                 </div>{" "}
               </li>{" "}
