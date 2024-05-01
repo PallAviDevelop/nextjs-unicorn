@@ -183,6 +183,7 @@ h1.l_sec {
     background-size: cover;
     background-position: left center;
 }
+
 .mapwrap{
   background-image: url(/images/Map.png);
   /* width: 100%;
@@ -201,6 +202,10 @@ h1.l_sec {
 .bgNavyBlue{
   background-color: #013773;
   color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 .bgNavyBlue h2{
   font-size: 31px;
@@ -212,14 +217,16 @@ h1.l_sec {
 background-color: #0D86C2;
 color: #fff;
 border-radius: 2px;
+max-width: 200px;
 padding: 5px 15px;
 }
 .bgNavyBlue span
 {
   text-align: center;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-around;
   padding: 20px 30px;
+  display: flex;
 }
 .contact-form{
   display: flex;

@@ -48,19 +48,19 @@ const Herosection = ({ title, heading, des }) => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="container mx-auto cm">
         <h2 className="mt-[1.5rem] text-center text-[28px] text-black font-semibold mb-4">
-          Best seller Products
+          Best Seller Products
         </h2>
         <ul className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[1rem] px-4">
           {bestseller.map((item, i) => (
             <li className="bg-base-300 card mb-4" key={i}>
               {" "}
               <Image
-                className="h-[200px] w-[250px] mx-auto"
+                className="items-center"
                 src={item.imgseller}
-                width={250}
-                height={200}
+                width={252}
+                height={291}
                 alt="imgseller"
               />
               <h3 className={style.Cattitle}>{item.name}</h3>
@@ -79,7 +79,7 @@ const Herosection = ({ title, heading, des }) => {
         </div>
       </section>
 
-      <section className="w-full py-10" style={{backgroundColor:'#EDF8FD'}}>
+      <section className="w-full py-10 cm choose-sec">
       <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
             Why Choose Us
           </h2>
@@ -142,16 +142,10 @@ const Herosection = ({ title, heading, des }) => {
                 </div>{" "}
               </li>
             </ul>{" "}
-            <button
-              className="text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 w-full sm:max-w-[240px] px-10 py-4 bg-inherit text-gradient border border-[#0c66ee] text-base"
-              data-v-b444fb2c=""
-            >
-              Join the waitlist
-            </button>
           </div>
         </div>
       </section>
-      <section className="container">
+      <section className="container cm">
         <div className="w-[90%] md:w-[80%] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
           <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
             Certificates
@@ -167,9 +161,9 @@ const Herosection = ({ title, heading, des }) => {
           </div>
         </div>
       </section>
-      <section className="center w-full">
+      <section className="mx-auto w-full">
         <div className={style.bgNavyBlue}>
-          <span className="w-[90%] md:w-[70%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
+          <span className="w-[90%] md:w-[90%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
             <h2>Need help. Contact our experts.</h2>
             <button className={style.btn}>Schedule a Call </button>
           </span>

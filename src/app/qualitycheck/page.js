@@ -57,7 +57,7 @@ const Qualitycheck = () => {
        <div> <Image style={{backgroundColor: '#0D86C2',color:' #fff',    padding: '10px',
     borderRadius: '50%',}}
                 className="rounded-lg w-auto py-10 mx-auto p-10"
-                src="/images/quality-assurance 1.png"
+                src="/images/expert 1.png"
                 width={64}
                 height={64}
                 alt="logo"
@@ -79,7 +79,7 @@ const Qualitycheck = () => {
                <Image style={{backgroundColor: '#0D86C2',color:' #fff',    padding: '10px',
     borderRadius: '50%',}}
                 className="rounded-lg w-auto py-10 mx-auto p-10"
-                src="/images/quality-assurance 1.png"
+                src="/images/fishQC.png"
                 width={64}
                 height={64}
                 alt="logo"

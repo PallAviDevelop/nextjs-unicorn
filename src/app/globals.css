@@ -30,3 +30,15 @@ body {
     text-wrap: balance;
   }
 }
+.choose-sec{
+  background: url('/images/BG-why-choose-us.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: left center;
+}
+.cm h2{
+  color: #013773;
+    font-size: 24px;
+    font-weight: 900;
+}
