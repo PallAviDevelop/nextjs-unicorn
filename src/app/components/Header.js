@@ -19,6 +19,7 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/
 
 const company = [
   { name: 'About Us', description: 'Get a better understanding', href: '/about', icon: ChartPieIcon },
+  { name: 'Quality Check', description: 'Dummy text', href: '/qualitycheck', icon: CursorArrowRaysIcon },
   { name: 'Vision', description: 'Speak directly to your customers', href: '/vision', icon: CursorArrowRaysIcon },
   { name: 'Mission', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
   { name: 'Values', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
