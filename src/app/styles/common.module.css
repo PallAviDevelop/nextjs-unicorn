@@ -1,3 +1,7 @@
+body{
+  font-family: Raleway;
+  color:#3B3B3B;
+}
 .header{
   display: flex;
   justify-content: space-between;
