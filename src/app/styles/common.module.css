@@ -178,6 +178,10 @@ h1.l_sec {
 }
 .bgImg{
   background: url('/images/Our Network.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: left center;
 }
 .mapwrap{
   background-image: url(/images/Map.png);
