@@ -39,12 +39,13 @@ h3.Cattitle:before {
   background: none repeat scroll 0 0 #007bff;
   content: "";
   display: block;
-  height: 35px;
+  height: 15px;
   position: absolute;
   width: 3px;
-  margin: 0px -15px;
-  padding: 0px;
+  margin: 5px 2px 0px -11px;
+  padding: 0;
 }
+h3.Cattitle{    margin: 0px 12px;}
 .footerLink{
   display: flex;
     justify-content: space-between;
