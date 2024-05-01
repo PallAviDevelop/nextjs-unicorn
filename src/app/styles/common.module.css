@@ -1,10 +1,14 @@
-body{
+
+
+/* a, p{
   font-family: Raleway;
   color:#3B3B3B;
-}
-a, p{
-  font-family: Raleway;
-  color:#3B3B3B;
+} */
+#lnk{
+  font-family: "Raleway", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 500;
+  font-style: normal;
 }
 .header{
   display: flex;
@@ -177,11 +181,18 @@ h1.l_sec {
 }
 .mapwrap{
   background-image: url(/images/Map.png);
-  width: 100%;
+  /* width: 100%;
   height: 90vh;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: contain; */
+  width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 932px;
+    margin: 0 auto;
 }
 .bgNavyBlue{
   background-color: #013773;
