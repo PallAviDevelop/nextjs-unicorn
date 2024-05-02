@@ -5,10 +5,10 @@ import { bestseller } from "../data/certificate.js";
 import CertificateSlide from "./certificateSlide/page.js";
 // import fish from "./../images/Fish1.png";
 
-const Herosection = ({ title, heading, des }) => {
+const Herosection = ({ title, heading1,heading2, des }) => {
   return (
     <>
-      <section className="center w-full">
+      <section className="center w-full hero">
         <div className={style["outerBanner"]}>
           <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
             <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] py-10">
@@ -16,17 +16,20 @@ const Herosection = ({ title, heading, des }) => {
                 <h1 className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {title}
                 </h1>
-                <h3 className="text-2xl font-extrabold tracking-[-0.04em] text-white sm:text-3xl sm:leading-[3.5rem]">
-                  {heading}
-                </h3>
-                <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <h1 style={{color: '#0D86C1'}} className="text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                  {heading1}
+                </h1>
+                <h1 style={{color: '#0D86C1'}} className="text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                  {heading2}
+                </h1>
+                <p className="raleway block antialiased font-sans text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des}
                 </p>
                 <div className="sm:max-w-none flex sm:flex-row sm:justify-start mt-6">
                   <span className="inline-block rounded-full text-sm font-semibold mb-2 py-1">
                     <button
                       style={{ backgroundColor: "#0D86C1" }}
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 border border-blue-700 rounded text-2xl"
                     >
                       Buyers
                     </button>
@@ -34,7 +37,7 @@ const Herosection = ({ title, heading, des }) => {
                   <span className="inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
                     <button
                       style={{ backgroundColor: "#0D86C1" }}
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 border border-blue-700 rounded text-2xl"
                     >
                       Sellers
                     </button>
@@ -48,7 +51,7 @@ const Herosection = ({ title, heading, des }) => {
           </div>
         </div>
       </section>
-      <section className="container mx-auto cm">
+      <section className="container mx-auto cm seller">
         <h2 className="mt-[1.5rem] text-center text-[28px] text-black font-semibold mb-4">
           Best Seller Products
         </h2>
@@ -68,7 +71,7 @@ const Herosection = ({ title, heading, des }) => {
           ))}
         </ul>
       </section>
-      <section className="center w-full">
+      <section className="center w-full network">
         <div className={style.mapwrap}>
           <div className="pt-[1rem] pb-[3rem]">
             <h3 className="mt-[1.5rem] text-center text-[28px] text-white font-semibold mb-4">
@@ -145,12 +148,12 @@ const Herosection = ({ title, heading, des }) => {
           </div>
         </div>
       </section>
-      <section className="container cm">
+      <section className="container cm certificate">
         <div className="w-[90%] md:w-[80%] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
-          <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
+          <h2 className="--font-minion mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
             Certificates
           </h2>
-          <p className="mt-[1rem] text-black text-opacity-60 text-center">
+          <p className="raleway mt-[1rem] text-black text-opacity-60 text-center">
             We ensure the products are certified with necessary quality
             assurance required as per the, buying country standards. Our
             products also undergo a thorough inspection by our local quality
@@ -161,9 +164,9 @@ const Herosection = ({ title, heading, des }) => {
           </div>
         </div>
       </section>
-      <section className="mx-auto w-full">
+      <section className="mx-auto w-full sched">
         <div className={style.bgNavyBlue}>
-          <span className="w-[90%] md:w-[90%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
+          <span className="w-[90%] md:w-[90%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem] container">
             <h2>Need help. Contact our experts.</h2>
             <button className={style.btn}>Schedule a Call </button>
           </span>

@@ -50,35 +50,35 @@ export const certificate = [
 ];
 export const bestseller = [
   {
-    imgseller: "/images/red.png",
+    imgseller: "/images/Red Snapper.png",
     name:'Red Snapper',
   },
   {
-    imgseller: "/images/Mask group.png",
+    imgseller: "/images/Salmon.png",
     name:'Salmon',
   },
   {
-    imgseller: "/images/Mask group (2).png",
+    imgseller: "/images/Rohu.png",
     name:'Rohu',
   },
   {
-    imgseller: "/images/tun.png",
+    imgseller: "/images/Tuna.png",
     name:'Tuna',
  },
   {
-    imgseller: "/images/black.png",
+    imgseller: "/images/Black Pomfret.png",
     name:'Black Pomfret',
   },
   {
-    imgseller: "/images/robin.png",
+    imgseller: "/images/Ribbon Fish.png",
     name:'Ribbon Fish',
   },
   {
-    imgseller: "/images/sea.png",
+    imgseller: "/images/Seabass.png",
     name:'Seabass',
   },
   {
-    imgseller: "/images/shri.png",
+    imgseller: "/images/Freshwater Shrimps.png",
     name:'Freshwater Shrimps',
   },
 ];

@@ -17,8 +17,12 @@
 }
 
 body {
-  
+  font-size: 18px;
+  color: #020202;
+  font-family: var(--font-raleway);
 }
+p{font-size: 18px;
+  font-family: var(--font-raleway);}
 *{
   margin:0;
   padding:0;
@@ -30,6 +34,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.raleway{
+  font-family: var(--font-raleway);
+  font-size: 18px;
+}
+.choose-sec span{font-family: var(--font-raleway);
+  font-size: 18px;}
+.seller h3{font-family: var(--font-raleway);
+  font-size: 18px;}
 .choose-sec{
   background: url('/images/BG-why-choose-us.png');
     background-repeat: no-repeat;
@@ -37,8 +50,16 @@ body {
     background-size: cover;
     background-position: left center;
 }
+.hero p{font-family: var(--font-raleway);
+  font-size: 20px;}
+  .hero button{font-family: var(--font-raleway);
+    font-size: 24px;}
 .cm h2{
   color: #013773;
-    font-size: 24px;
+    font-size: 38px;
     font-weight: 900;
+    font-family: var(--font-minion);
+}
+.cm h2, hero h1, .seller h2{
+  font-family: var(--font-minion);
 }
