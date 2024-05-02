@@ -13,10 +13,10 @@ const Herosection = ({ title, heading1,heading2, des }) => {
           <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
             <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] py-10">
               <div className="u-max-w-[480px] u-space-y-2 u-leading-tight">
-                <h1 className="mt-4 text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                <h1 className="--font-minion mt-4 text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {title}
                 </h1>
-                <h1 style={{color: '#0D86C1'}} className="text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                <h1 style={{color: '#0D86C1'}} className="--font-minion text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {heading1}
                 </h1>
                 <h1 style={{color: '#0D86C1'}} className="text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">

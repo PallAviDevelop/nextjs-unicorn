@@ -195,7 +195,7 @@ h1.l_sec {
     position: relative;
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: contain;
+    background-size: cover;
     min-height: 923px;
     margin: 0 auto;
 }

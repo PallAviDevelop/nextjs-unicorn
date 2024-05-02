@@ -70,8 +70,7 @@ p {
   font-weight: 900;
   font-family: var(--font-minion);
 }
-.cm h2,
-hero h1,
+.cm h2, .hero h1,
 .seller h2 {
   font-family: var(--font-minion);
 }
