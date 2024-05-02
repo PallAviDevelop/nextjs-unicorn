@@ -71,7 +71,7 @@ const Herosection = ({ title, heading1,heading2, des }) => {
           ))}
         </ul>
       </section>
-      <section className="center w-full network">
+      <section className="container mx-auto center w-full network">
         <div className={style.mapwrap}>
           <div className="pt-[1rem] pb-[3rem]">
             <h3 className="mt-[1.5rem] text-center text-[28px] text-white font-semibold mb-4">
