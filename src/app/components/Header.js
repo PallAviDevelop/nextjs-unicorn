@@ -22,7 +22,7 @@ const company = [
   { name: 'Quality Check', description: 'Dummy text', href: '/qualitycheck', icon: CursorArrowRaysIcon },
   { name: 'Vision', description: 'Speak directly to your customers', href: '/vision', icon: CursorArrowRaysIcon },
   { name: 'Mission', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'Values', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
+  { name: 'Services', description: 'Our services', href: '/services', icon: SquaresPlusIcon },
   { name: 'Certificates', description: 'Build strategic', href: '/certificates', icon: ArrowPathIcon },
 ]
 const callsToAction = [
