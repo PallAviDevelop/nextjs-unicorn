@@ -98,13 +98,13 @@ const Herosection = ({ title, heading1, heading2, des }) => {
           className="relative max-w-screen-xl px-4 sm:px-8 mx-auto grid grid-cols-12 gap-x-6 overflow-hidden aos-init aos-animate"
           data-v-b444fb2c=""
         >
-          <div className="col-span-12 lg:col-span-7" data-v-b444fb2c="">
+          <div className="col-span-12 lg:col-span-7 py-12" data-v-b444fb2c="">
             <div className="w-full" data-v-b444fb2c="">
               <Image
-                className="w-[90%] py-10 mx-auto p-10"
+                className="py-12 mx-auto"
                 src="/Why-Choose-us-Fish.png"
-                width={350}
-                height={252}
+                width={500}
+                height={470}
                 alt="logo"
               />
             </div>
