@@ -30,7 +30,10 @@ const Herosection = ({ title, heading1, heading2, des }) => {
                   {heading2}
                 </h1>
                 <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
-                  {des}
+                  {des1}
+                </p>
+                <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                  {des2}
                 </p>
                 <div className="sm:max-w-none flex sm:flex-row sm:justify-start mt-6">
                   <span className="inline-block rounded-full text-sm font-normal mb-2 py-1">
