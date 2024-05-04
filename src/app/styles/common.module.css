@@ -176,13 +176,13 @@ h1.l_sec {
   display: flex;
   justify-content: space-around !important;
 }
-.bgImg{
+/* .bgImg{
   background: url('/images/Our Network.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     background-position: left center;
-}
+} */
 
 .mapwrap{
   background-image: url(/images/OurNetwork.png);
