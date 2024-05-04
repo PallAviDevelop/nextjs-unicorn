@@ -11,10 +11,10 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
      
       <section className="center w-full hero">
         <div className={style["outerBanner"]}>
-          <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-            <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] py-10">
+          <div className="mx-auto flex max-w-7xl items-center justify-between xl:p-10 px-4 py-4 lg:px-8">
+            <div className="w-[100%] md:w-[100%] xl:mt-[2rem] md:mt-[3rem] xl:mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] xl:py-10">
               <div className="u-max-w-[480px] u-space-y-2 u-leading-tight">
-                <h1 className="--font-minion mt-4 xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                <h1 className="--font-minion xl:mt-4 xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {title}
                 </h1>
                 <h1
@@ -29,20 +29,20 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
                 >
                   {heading2}
                 </h1>
-                <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <p className="text-xs raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des1}
                 </p>
-                <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <p className="text-xs raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des2}
                 </p>
-                <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <p className="text-xs raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des3}
                 </p>
-                <div className="sm:max-w-none flex sm:flex-row sm:justify-start mt-6">
+                <div className="sm:max-w-none flex sm:flex-row sm:justify-start xl:mt-6">
                   <span className="inline-block rounded-full text-sm font-normal mb-2 py-1">
                     <button
                       style={{ backgroundColor: "#0D86C1" }}
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-10 border border-blue-700 rounded text-2xl"
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-normal xl:py-2 py-1 px-2 xl:px-10 border border-blue-700 rounded xl:text-2xl text-1xl"
                     >
                       Buyers
                     </button>
@@ -50,7 +50,7 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
                   <span className="inline-block rounded-full px-3 py-1 text-sm mr-2 mb-2">
                     <button
                       style={{ backgroundColor: "#0D86C1" }}
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-10 border border-blue-700 rounded text-2xl"
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-normal xl:py-2 py-1 px-2 xl:px-10 border border-blue-700 rounded xl:text-2xl text-1xl"
                     >
                       Sellers
                     </button>

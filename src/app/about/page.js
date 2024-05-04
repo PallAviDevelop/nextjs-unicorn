@@ -25,7 +25,7 @@ const About = () => {
           </svg>
         </div>
       </div>
-      <section>
+      <section className="container mx-auto">
         <div className="pt-[1rem] pb-[3rem]">
           <div className="w-[90%] md:w-[80%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
             <div
@@ -86,7 +86,8 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section class={style.bgImg}>
+      <section className='container mx-auto'>
+        <div className={style.bgImg}>
         <div className="pt-[1rem] pb-[3rem]">
           <div className="w-[90%] md:w-[80%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
             <div
@@ -141,8 +142,11 @@ const About = () => {
             </div>
           </div>
         </div>
+        </div>
       </section>
+    <section className="container mx-auto py-10">
       <CertificateSlide />
+      </section>
     </>
   );
 };

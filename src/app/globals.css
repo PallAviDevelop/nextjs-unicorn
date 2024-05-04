@@ -38,7 +38,6 @@ p {
 
 .raleway {
   font-family: var(--font-raleway);
-  font-size: 18px;
 }
 .choose-sec span {
   font-family: var(--font-raleway);
@@ -58,11 +57,9 @@ p {
 }
 .hero p {
   font-family: var(--font-raleway);
-  font-size: 20px;
 }
 .hero button {
   font-family: var(--font-raleway);
-  font-size: 24px;
 }
 .cm h2 {
   color: #013773;
@@ -80,3 +77,29 @@ p {
 }
 
 .hero h1 {    text-transform: uppercase;}
+
+
+/* responsive */
+@media (min-width: 640px) { 
+  .common_outerBanner__skUp9{
+   
+  }
+  .outerBanner{
+
+  }
+ }
+
+ @media (min-width: 768px) { 
+  .common_outerBanner__skUp9{
+   
+  }
+  .outerBanner{}
+  }
+  @media (min-width: 1024px) { 
+
+   }
+
+   @media (min-width: 1280px) { 
+
+   }
+   @media (min-width: 1536px) {  }
