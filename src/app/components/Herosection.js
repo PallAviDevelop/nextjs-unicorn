@@ -5,7 +5,7 @@ import { bestseller } from "../data/certificate.js";
 import CertificateSlide from "./certificateSlide/page.js";
 // import fish from "./../images/Fish1.png";
 
-const Herosection = ({ title, heading1, heading2, des }) => {
+const Herosection = ({ title, heading1, heading2, des1, des1 }) => {
   return (
     <>
      
