@@ -185,19 +185,19 @@ h1.l_sec {
 }
 
 .mapwrap{
-  background-image: url(/images/Map.png);
+  background-image: url(/images/OurNetwork.png);
   /* width: 100%;
   height: 90vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain; */
   width: 100%;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
-    min-height: 923px;
-    margin: 0 auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  min-height: 835px;
+  margin: 0 auto;
 }
 .bgNavyBlue{
   background-color: #013773;
