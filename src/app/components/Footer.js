@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import footerbg from "./../images/footerunicorn.png";
+//import footerbg from "/images/footerunicorn.png";
 import style from "@/app/styles/common.module.css";
 import {
   FaFacebookF,
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-[3rem]">
         <ul>
           <li>
-            <Image src={footerbg} width={263} height={81} alt="logo" />
+            <Image src="/images/footerunicorn.png" width={263} height={81} alt="logo" />
             {/* <Image src='/images/footerunicorn.png' width={100} height={50} alt='logo'/>*/}
           </li>
         </ul>

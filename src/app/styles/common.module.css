@@ -37,7 +37,7 @@
 }
 
 .footer{
-  background: url('../images/BG-Footer.png');
+  background: url('/images/BG-Footer.png');
   width: 100%;
   background-position:left center;
   background-size: cover;
@@ -110,13 +110,13 @@ width: calc(350% / 5 - 10px);
   fill: #FFFFFF;
 }
 .outerBanner{
-  background-image: url('../images/Banner-img.png');
+  background-image: url('/images/Banner-img.png');
   width: 100%;
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
-    height: 700px;
+    min-height: 700px;
     margin: 0 auto;
 }
 .banner{

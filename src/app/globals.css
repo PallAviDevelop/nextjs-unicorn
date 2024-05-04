@@ -74,3 +74,7 @@ p {
 .seller h2 {
   font-family: var(--font-minion);
 }
+
+.bg-topcenter {
+  background-position: top center;
+}

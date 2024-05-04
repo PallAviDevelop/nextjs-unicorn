@@ -5,9 +5,10 @@ import { bestseller } from "../data/certificate.js";
 import CertificateSlide from "./certificateSlide/page.js";
 // import fish from "./../images/Fish1.png";
 
-const Herosection = ({ title, heading1,heading2, des }) => {
+const Herosection = ({ title, heading1, heading2, des }) => {
   return (
     <>
+     
       <section className="center w-full hero">
         <div className={style["outerBanner"]}>
           <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
@@ -16,10 +17,16 @@ const Herosection = ({ title, heading1,heading2, des }) => {
                 <h1 className="--font-minion mt-4 text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {title}
                 </h1>
-                <h1 style={{color: '#0D86C1'}} className="--font-minion text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                <h1
+                  style={{ color: "#0D86C1" }}
+                  className="--font-minion text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
+                >
                   {heading1}
                 </h1>
-                <h1 style={{color: '#0D86C1'}} className="text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                <h1
+                  style={{ color: "#0D86C1" }}
+                  className="text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
+                >
                   {heading2}
                 </h1>
                 <p className="raleway block antialiased font-sans text-xl font-normal leading-relaxed text-white lg:pr-32">
@@ -60,7 +67,7 @@ const Herosection = ({ title, heading1,heading2, des }) => {
             <li className="bg-base-300 card mb-4" key={i}>
               {" "}
               <Image
-                className="items-center"
+                className="items-center w-full h-full"
                 src={item.imgseller}
                 width={252}
                 height={291}
@@ -83,9 +90,9 @@ const Herosection = ({ title, heading1,heading2, des }) => {
       </section>
 
       <section className="w-full py-10 cm choose-sec">
-      <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
-            Why Choose Us
-          </h2>
+        <h2 className="mt-[1rem] text-center text-[28px] text-black font-semibold mb-4">
+          Why Choose Us
+        </h2>
         <div
           data-aos="fade-down"
           className="relative max-w-screen-xl px-4 sm:px-8 mx-auto grid grid-cols-12 gap-x-6 overflow-hidden aos-init aos-animate"
@@ -95,7 +102,7 @@ const Herosection = ({ title, heading1,heading2, des }) => {
             <div className="w-full" data-v-b444fb2c="">
               <Image
                 className="w-[90%] py-10 mx-auto p-10"
-                src="/Fish1.png"
+                src="/Why-Choose-us-Fish.png"
                 width={350}
                 height={252}
                 alt="logo"
@@ -112,16 +119,26 @@ const Herosection = ({ title, heading1,heading2, des }) => {
             <ul className="space-y-4 sm:space-y-2" data-v-b444fb2c="">
               <li className="space-y-2" data-v-b444fb2c="">
                 <div className="flex items-center space-x-2">
-                 <span>
-                 <span className="text-sky-500 i">At Unicorn Seafoods</span>, we transcend the ordinary to offer an extraordinary seafood experience. Our commitment to excellence starts from the source, with direct partnerships ensuring the freshest catch from fishermen and farmers worldwide.
-                 </span>
-                 
+                  <span>
+                    <span className="text-sky-500 i">At Unicorn Seafoods</span>,
+                    we transcend the ordinary to offer an extraordinary seafood
+                    experience. Our commitment to excellence starts from the
+                    source, with direct partnerships ensuring the freshest catch
+                    from fishermen and farmers worldwide.
+                  </span>
                 </div>{" "}
               </li>{" "}
               <li className="space-y-2" data-v-b444fb2c="">
                 <div className="flex items-center space-x-2">
-                 
-                  <span>With state-of-the-art facilities meeting USA and EU standards, we guarantee quality and safety in every bite. But it's not just about the products, it's about the journey. Our seamless platform connects buyers and sellers, offering real-time inventory and transparent transactions. With zero buying agent commission, service charges, or hidden costs, we prioritize fairness and trust.</span>
+                  <span>
+                    With state-of-the-art facilities meeting USA and EU
+                    standards, we guarantee quality and safety in every bite.
+                    But it's not just about the products, it's about the
+                    journey. Our seamless platform connects buyers and sellers,
+                    offering real-time inventory and transparent transactions.
+                    With zero buying agent commission, service charges, or
+                    hidden costs, we prioritize fairness and trust.
+                  </span>
                 </div>{" "}
               </li>{" "}
               <li className="space-y-2" data-v-b444fb2c="">
@@ -141,7 +158,11 @@ const Herosection = ({ title, heading1,heading2, des }) => {
                       <path d="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"></path>
                     </svg>
                   </span>{" "} */}
-                  <span>We don't just deliver seafood; we deliver exceptional service. Choose Unicorn Seafoods for an unparalleled seafood experience that goes beyond the plate.</span>
+                  <span>
+                    We don't just deliver seafood; we deliver exceptional
+                    service. Choose Unicorn Seafoods for an unparalleled seafood
+                    experience that goes beyond the plate.
+                  </span>
                 </div>{" "}
               </li>
             </ul>{" "}
