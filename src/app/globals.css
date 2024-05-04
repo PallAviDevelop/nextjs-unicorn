@@ -78,3 +78,5 @@ p {
 .bg-topcenter {
   background-position: top center;
 }
+
+.hero h1 {    text-transform: uppercase;}

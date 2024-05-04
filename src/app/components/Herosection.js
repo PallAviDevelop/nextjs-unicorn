@@ -14,37 +14,37 @@ const Herosection = ({ title, heading1, heading2, des }) => {
           <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
             <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] py-10">
               <div className="u-max-w-[480px] u-space-y-2 u-leading-tight">
-                <h1 className="--font-minion mt-4 text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
+                <h1 className="--font-minion mt-4 xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {title}
                 </h1>
                 <h1
                   style={{ color: "#0D86C1" }}
-                  className="--font-minion text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
+                  className="--font-minion xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
                 >
                   {heading1}
                 </h1>
                 <h1
                   style={{ color: "#0D86C1" }}
-                  className="text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
+                  className="xl:text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
                 >
                   {heading2}
                 </h1>
-                <p className="raleway block antialiased font-sans text-xl font-normal leading-relaxed text-white lg:pr-32">
+                <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des}
                 </p>
                 <div className="sm:max-w-none flex sm:flex-row sm:justify-start mt-6">
-                  <span className="inline-block rounded-full text-sm font-semibold mb-2 py-1">
+                  <span className="inline-block rounded-full text-sm font-normal mb-2 py-1">
                     <button
                       style={{ backgroundColor: "#0D86C1" }}
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 border border-blue-700 rounded text-2xl"
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-10 border border-blue-700 rounded text-2xl"
                     >
                       Buyers
                     </button>
                   </span>
-                  <span className="inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                  <span className="inline-block rounded-full px-3 py-1 text-sm mr-2 mb-2">
                     <button
                       style={{ backgroundColor: "#0D86C1" }}
-                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 border border-blue-700 rounded text-2xl"
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-10 border border-blue-700 rounded text-2xl"
                     >
                       Sellers
                     </button>
