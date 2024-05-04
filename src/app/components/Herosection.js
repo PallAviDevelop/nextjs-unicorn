@@ -5,7 +5,7 @@ import { bestseller } from "../data/certificate.js";
 import CertificateSlide from "./certificateSlide/page.js";
 // import fish from "./../images/Fish1.png";
 
-const Herosection = ({ title, heading1, heading2, des1, des2 }) => {
+const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
   return (
     <>
      
@@ -34,6 +34,9 @@ const Herosection = ({ title, heading1, heading2, des1, des2 }) => {
                 </p>
                 <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
                   {des2}
+                </p>
+                <p className="raleway block antialiased font-sans xl:text-xl font-normal leading-relaxed text-white lg:pr-32">
+                  {des3}
                 </p>
                 <div className="sm:max-w-none flex sm:flex-row sm:justify-start mt-6">
                   <span className="inline-block rounded-full text-sm font-normal mb-2 py-1">
