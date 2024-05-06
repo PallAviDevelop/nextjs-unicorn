@@ -115,7 +115,7 @@ width: calc(350% / 5 - 10px);
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: contain;
+    background-size: cover;
     min-height: 855px;
     margin: 0 auto;
 }
