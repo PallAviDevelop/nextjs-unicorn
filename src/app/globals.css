@@ -81,7 +81,12 @@ p {
 .bg-topcenter {
   background-position: top center;
 }
+.menu{
+  
+}
+.menu a{
 
+}
 .hero h1 {
   text-transform: uppercase;
 }

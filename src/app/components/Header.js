@@ -54,7 +54,7 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-between items-center">
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <Popover.Group className="menu hidden lg:flex lg:gap-x-12">
         <Link className="raleway text-lg leading-6 text-gray-900" href='/'>Home</Link>
         <Link className="raleway text-lg leading-6 text-gray-900" href='/'>Product</Link>
         

@@ -10,7 +10,7 @@ const About = () => {
         <div
           className="
 		bg-no-repeat bg-cover bg-left-top
-		bg-[url('/Vector4.png')] h-[40vh]
+		bg-[url('/Vector4.png')] h-[325px]
 		xl:bg-[url('/images/Vector4.png')]
 "
         >

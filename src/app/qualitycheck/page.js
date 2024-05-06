@@ -5,7 +5,7 @@ import style from "@/app/styles/common.module.css";
 const Qualitycheck = () => {
   return (
     <>
-      <div className={style["commonBgBanner"]}>
+      {/* <div className={style["commonBgBanner"]}>
         <div className={style.bannertitle}>
           <h1 className={style.l_sec}>Quality Check</h1>
         </div>
@@ -23,7 +23,20 @@ const Qualitycheck = () => {
             ></path>
           </svg>
         </div>
-      </div>
+      </div> */}
+       <section className="center w-full common">
+        <div
+          className="
+		bg-no-repeat bg-cover bg-left-top
+		bg-[url('/Vector4.png')] h-[325px]
+		xl:bg-[url('/images/Vector4.png')]
+"
+        >
+          <div className={style.bannertitle}>
+            <h1 className={style.l_sec}>About</h1>
+          </div>
+        </div>
+      </section>
       <section className="w-full py-10">
         <div
           data-aos="fade-down"
