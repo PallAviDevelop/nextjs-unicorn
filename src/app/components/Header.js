@@ -41,7 +41,7 @@ export default function Header() {
     <header className="bg-white">
       <nav id="nav" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-        <Link className="-m-1.5 p-1.5" href='/'><Image className="h-[52px] w-[169px]" src='/logo.png' width={169} height={52} alt='logo'/></Link>
+        <Link className="-m-1.5 p-1.5" href='/'><Image className="md:w-[169px] lg:w-[169px] xl:h-[52px] xl:w-[169px] sm:w-[60px] sm:h-[40px]" src='/logo.png' width={100} height={52} alt='logo'/></Link>
         </div>
         <div className="flex lg:hidden">
           <button

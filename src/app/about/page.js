@@ -8,7 +8,7 @@ const About = () => {
     <>
       <section className="center w-full common">
         <div
-          class="
+          className="
 		bg-no-repeat bg-cover bg-left-top
 		bg-[url('/Vector4.png')] h-[40vh]
 		xl:bg-[url('/images/Vector4.png')]
@@ -146,103 +146,103 @@ const About = () => {
               <h2>Core Value</h2>
               <p>At Unicorn Seafoods, our values guide everything we do</p>
             </div>
-            <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border-right border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-5">
-              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                <div class="relative space-y-8 py-12 p-8">
+            <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border-right border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-5">
+              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Quality-Icon.png"
-                    class="w-12"
+                    className="w-12"
                     width="512"
                     height="512"
                     alt="burger illustration"
                   />
 
-                  <div class="space-y-2">
-                    <h5 class="text-xl font-semibold text-white">Quality</h5>
-                    <p class="text-white">
+                  <div className="space-y-2">
+                    <h5 className="text-xl font-semibold text-white">Quality</h5>
+                    <p className="text-white">
                       We are committed to delivering excellence in every aspect
                       of our business, be it sourcing, service, or experiences.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                <div class="relative space-y-8 py-12 p-8">
+              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Sustainability-Icon.png"
-                    class="w-12"
+                    className="w-12"
                     width="512"
                     height="512"
                     alt="burger illustration"
                   />
 
-                  <div class="space-y-2">
-                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                  <div className="space-y-2">
+                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
                       Sustainability
                     </h5>
-                    <p class="text-white">
+                    <p className="text-white">
                       Dedication to sustainable practices throughout our
                       operations to contribute positively to our planet.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                <div class="relative space-y-8 py-12 p-8">
+              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Sustainability-Icon.png"
-                    class="w-12"
+                    className="w-12"
                     width="512"
                     height="512"
                     alt="burger illustration"
                   />
-                  <div class="space-y-2">
-                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                  <div className="space-y-2">
+                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
                       Sustainability
                     </h5>
-                    <p class="text-white">
+                    <p className="text-white">
                       Dedication to sustainable practices throughout our
                       operations to contribute positively to our planet.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                <div class="relative space-y-8 py-12 p-8">
+              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Traceability-Icon.png"
-                    class="w-12"
+                    className="w-12"
                     width="512"
                     height="512"
                     alt="burger illustration"
                   />
 
-                  <div class="space-y-2">
-                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                  <div className="space-y-2">
+                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
                       Traceability
                     </h5>
-                    <p class="text-white">
+                    <p className="text-white">
                       We believe in the power of collaboration, working hard to
                       achieve mutual success for all stakeholders.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="group relative">
-                <div class="relative space-y-8 py-12 p-8">
+              <div className="group relative">
+                <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Customer-Centricity-Icon.png"
-                    class="w-12"
+                    className="w-12"
                     width="512"
                     height="512"
                     alt="burger illustration"
                   />
 
-                  <div class="space-y-2">
-                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                  <div className="space-y-2">
+                    <h5 className="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
                       Customer-Centricity
                     </h5>
-                    <p class="text-white">
+                    <p className="text-white">
                       Providing transparency to our customers about the origins
                       and journey of our products, fostering trust and
                       accountability.

@@ -11,7 +11,7 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
       <section className="center w-full hero">
         <div className={style["outerBanner"]}>
           <div className="mx-auto flex max-w-7xl items-center justify-between xl:p-10 px-4 py-4 lg:px-8">
-            <div className="w-[100%] md:w-[100%] xl:mt-[2rem] md:mt-[3rem] xl:mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-[3rem] xl:py-10">
+            <div className="w-[100%] md:w-[100%] xl:mt-[2rem] md:mt-[3rem] xl:mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[3rem] xl:py-10">
               <div className="u-max-w-[480px] u-space-y-2 u-leading-tight">
                 <h1 className="--font-minion xl:mt-4 xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]">
                   {title}
