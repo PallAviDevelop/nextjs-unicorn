@@ -8,7 +8,6 @@ import CertificateSlide from "./certificateSlide/page.js";
 const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
   return (
     <>
-     
       <section className="center w-full hero">
         <div className={style["outerBanner"]}>
           <div className="mx-auto flex max-w-7xl items-center justify-between xl:p-10 px-4 py-4 lg:px-8">
@@ -25,7 +24,7 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
                 </h1>
                 <h1
                   style={{ color: "#0D86C1" }}
-                  className="xl:text-3xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
+                  className="--font-minion xl:text-5xl font-extrabold tracking-[-0.04em] text-white sm:text-5xl sm:leading-[3.5rem]"
                 >
                   {heading2}
                 </h1>
@@ -57,9 +56,7 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
                   </span>
                 </div>
               </div>
-              <div className={style.r_sec}>
-                {/* <Image src={img} width={400} height={550} alt='banner img'/> */}
-              </div>
+              <div className={style.r_sec}></div>
             </div>
           </div>
         </div>
@@ -87,9 +84,9 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
       <section className={style.mapwrap}>
         <div className="container mx-auto center w-full network">
           <div className="pt-[1rem] pb-[3rem]">
-            <h3 className="mt-[1.5rem] text-center text-[28px] text-white font-semibold mb-4">
+            <h2 className="mt-[1.5rem] text-center text-[28px] text-white font-semibold mb-4">
               Network
-            </h3>
+            </h2>
             <div className="w-[90%] md:w-[80%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]"></div>
           </div>
         </div>
@@ -119,9 +116,6 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
             className="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20"
             data-v-b444fb2c=""
           >
-            {/* <p className="paragraph" data-v-b444fb2c="">
-            <span className="text-sky-500 i">At Unicorn Seafoods</span>, we transcend the ordinary to offer an extraordinary seafood experience. Our commitment to excellence starts from the source, with direct partnerships ensuring the freshest catch from fishermen and farmers worldwide.
-            </p>{" "} */}
             <ul className="space-y-4 sm:space-y-2" data-v-b444fb2c="">
               <li className="space-y-2" data-v-b444fb2c="">
                 <div className="flex items-center space-x-2">
@@ -149,21 +143,6 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
               </li>{" "}
               <li className="space-y-2" data-v-b444fb2c="">
                 <div className="flex items-center space-x-2">
-                  {/* <span
-                    aria-hidden="true"
-                    role="img"
-                    className="material-design-icon check-circle-icon text-[#0c66ee]"
-                  >
-                    <svg
-                      fill="currentColor"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      className="material-design-icon__svg"
-                    >
-                      <path d="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"></path>
-                    </svg>
-                  </span>{" "} */}
                   <span>
                     We don't just deliver seafood; we deliver exceptional
                     service. Choose Unicorn Seafoods for an unparalleled seafood

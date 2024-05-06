@@ -28,6 +28,25 @@ const Contact = () => {
      
   <div class="common_layerstyle__c8PRg"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="common_shape-fill__eGJNR"></path></svg></div>
   </div>
+  <section className="container mx-auto">
+  <div class="lg:col-span-2 bg-[#EDF8FD] rounded sm:p-10 p-4 z-10 block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
+                    <h2 class="text-3xl text-white text-center font-extrabold mb-6">Contact Us</h2>
+                    <form>
+                        <div class="max-w-sm mx-auto space-y-4">
+                            <input type="text" placeholder="Name" class="w-full bg-gray-100 rounded py-3 px-6 text-sm outline-none" />
+                            <input type="email" placeholder="Email" class="w-full bg-gray-100 rounded py-3 px-6 text-sm outline-none" />
+                            <input type="email" placeholder="Phone No." class="w-full bg-gray-100 rounded py-3 px-6 text-sm outline-none"/>
+                            <textarea placeholder="Message" rows="6" class="w-full bg-gray-100 rounded px-6 text-sm pt-3 outline-none"/>
+                            <button type="button" class="text-[#333] mx-auto block relative bg-gray-100 hover:bg-gray-200 font-semibold rounded text-sm px-6 py-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="currentColor" class="mr-2 inline" viewBox="0 0 548.244 548.244">
+                                    <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000"></path>
+                                </svg>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+  </section>
   <div class="container px-6 md:px-12 mx-auto">
     <div
       class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
@@ -248,6 +267,7 @@ const Contact = () => {
 </section> */}
 
 </section>
+
     </>
   );
 };

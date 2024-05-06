@@ -130,7 +130,7 @@ width: calc(350% / 5 - 10px);
 }
 .outerBanner h3{color: #0D86C1;}
 .commonBgBanner{
-  background: linear-gradient(-45deg, #04133e, #013773, #414db7);
+  background: linear-gradient(-64deg, #04133e, #013773, #013773);
   width: 100%;
   position: relative;
   min-height: 292px;
@@ -176,13 +176,14 @@ h1.l_sec {
   display: flex;
   justify-content: space-around !important;
 }
-/* .bgImg{
-  background: url('/images/Our Network.png');
+.bgImg{
+  background-image: url('/images/abtCore.png');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     background-position: left center;
-} */
+    min-height: 600px;
+}
 
 .mapwrap{
   background-image: url('/images/OurNetwork.png');
@@ -196,7 +197,7 @@ h1.l_sec {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  min-height: 700px;
+  min-height: 652px;
   margin: 0 auto;
 }
 .bgNavyBlue{

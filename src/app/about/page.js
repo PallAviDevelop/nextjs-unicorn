@@ -6,28 +6,22 @@ import CertificateSlide from "../components/certificateSlide/page";
 const About = () => {
   return (
     <>
-      <div className={style["commonBgBanner"]}>
-        <div className={style.bannertitle}>
-          <h1 className={style.l_sec}>About</h1>
+      <section className="center w-full common">
+        <div
+          class="
+		bg-no-repeat bg-cover bg-left-top
+		bg-[url('/Vector4.png')] h-[40vh]
+		xl:bg-[url('/images/Vector4.png')]
+"
+        >
+          <div className={style.bannertitle}>
+            <h1 className={style.l_sec}>About</h1>
+          </div>
         </div>
-
-        <div className="common_layerstyle__c8PRg">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-              className="common_shape-fill__eGJNR"
-            ></path>
-          </svg>
-        </div>
-      </div>
+      </section>
       <section className="container mx-auto">
         <div className="pt-[1rem] pb-[3rem]">
-          <div className="w-[90%] md:w-[80%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
+          <div className="w-[90%] md:w-[100%] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem] p-6">
             <div
               data-aos="fade-left"
               data-aos-anchor-placement="top-center"
@@ -35,7 +29,7 @@ const About = () => {
             >
               <div className="p-6 hover:bg-white rounded-lg transition-all duration-200">
                 <Image
-                  className="h-full w-auto"
+                  className="h-full w-full"
                   src="/images/Group 98.png"
                   width={500}
                   height={500}
@@ -86,17 +80,48 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className='container mx-auto'>
+      <section className="container mx-auto vissionmission">
         <div className={style.bgImg}>
-        <div className="pt-[1rem] pb-[3rem]">
-          <div className="w-[90%] md:w-[80%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
+          <div className="pt-[1rem] pb-[1rem] ">
             <div
-              data-aos="fade-left"
-              data-aos-anchor-placement="top-center"
-              className="aos-init aos-animate"
+              className="w-[90%] md:w-[100%] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem] px-10"
+              style={{ borderBottom: " 1px solid #fff" }}
             >
-              <div className="p-6 text-white rounded-lg transition-all duration-200">
-                <h3>Vission</h3>
+              <div
+                data-aos="fade-left"
+                data-aos-anchor-placement="top-center"
+                className="aos-init aos-animate"
+              >
+                <div className="py-2 text-white border-right border-gray-100">
+                  <h3 className="xl:text-4xl">Vission</h3>
+                  <div className="w-[100%] md:w-[100%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
+                    <p className="mt-[1rem] text-white text-start">
+                      At Welcome to Unicorn Seafoods, your premier destination
+                      for all things seafood and aquaculture. We pride ourselves
+                      on being more than just a marketplace; we're your one-stop
+                      solution, connecting buyers and sellers across the globe
+                      to ensure the best deals and unparalleled service
+                      standards.
+                    </p>
+                    <Image
+                      className="h-full w-auto"
+                      src="/images/mission.png"
+                      width={100}
+                      height={200}
+                      alt="logo"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-anchor-placement="top-center"
+                className="aos-init aos-animate"
+              >
+                <h3 className="--font-minion text-white xl:text-4xl">
+                  Mission
+                </h3>
                 <div className="w-[100%] md:w-[100%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
                   <p className="mt-[1rem] text-white text-start">
                     At Welcome to Unicorn Seafoods, your premier destination for
@@ -107,45 +132,131 @@ const About = () => {
                   </p>
                   <Image
                     className="h-full w-auto"
-                    src="/images/mission.png"
+                    src="/images/vission.png"
                     width={100}
                     height={200}
                     alt="logo"
                   />
-                  3
                 </div>
               </div>
             </div>
-            <div
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              data-aos-anchor-placement="top-center"
-              className="aos-init aos-animate"
-            >
-              <h3 className="text-white">Mission</h3>
-              <div className="w-[100%] md:w-[100%] mb-[3rem] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[3rem]">
-                <p className="mt-[1rem] text-white text-start">
-                  At Welcome to Unicorn Seafoods, your premier destination for
-                  all things seafood and aquaculture. We pride ourselves on
-                  being more than just a marketplace; we're your one-stop
-                  solution, connecting buyers and sellers across the globe to
-                  ensure the best deals and unparalleled service standards.
-                </p>
-                <Image
-                  className="h-full w-auto"
-                  src="/images/vission.png"
-                  width={100}
-                  height={200}
-                  alt="logo"
-                />
+          </div>
+          <div className="core">
+            <div className="text-center mt-[1.5rem] text-[28px] text-black font-semibold mb-4 text-white">
+              <h2>Core Value</h2>
+              <p>At Unicorn Seafoods, our values guide everything we do</p>
+            </div>
+            <div class="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border-right border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-5">
+              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div class="relative space-y-8 py-12 p-8">
+                  <img
+                    src="/images/Quality-Icon.png"
+                    class="w-12"
+                    width="512"
+                    height="512"
+                    alt="burger illustration"
+                  />
+
+                  <div class="space-y-2">
+                    <h5 class="text-xl font-semibold text-white">Quality</h5>
+                    <p class="text-white">
+                      We are committed to delivering excellence in every aspect
+                      of our business, be it sourcing, service, or experiences.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div class="relative space-y-8 py-12 p-8">
+                  <img
+                    src="/images/Sustainability-Icon.png"
+                    class="w-12"
+                    width="512"
+                    height="512"
+                    alt="burger illustration"
+                  />
+
+                  <div class="space-y-2">
+                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                      Sustainability
+                    </h5>
+                    <p class="text-white">
+                      Dedication to sustainable practices throughout our
+                      operations to contribute positively to our planet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div class="relative space-y-8 py-12 p-8">
+                  <img
+                    src="/images/Sustainability-Icon.png"
+                    class="w-12"
+                    width="512"
+                    height="512"
+                    alt="burger illustration"
+                  />
+                  <div class="space-y-2">
+                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                      Sustainability
+                    </h5>
+                    <p class="text-white">
+                      Dedication to sustainable practices throughout our
+                      operations to contribute positively to our planet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div class="relative space-y-8 py-12 p-8">
+                  <img
+                    src="/images/Traceability-Icon.png"
+                    class="w-12"
+                    width="512"
+                    height="512"
+                    alt="burger illustration"
+                  />
+
+                  <div class="space-y-2">
+                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                      Traceability
+                    </h5>
+                    <p class="text-white">
+                      We believe in the power of collaboration, working hard to
+                      achieve mutual success for all stakeholders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="group relative">
+                <div class="relative space-y-8 py-12 p-8">
+                  <img
+                    src="/images/Customer-Centricity-Icon.png"
+                    class="w-12"
+                    width="512"
+                    height="512"
+                    alt="burger illustration"
+                  />
+
+                  <div class="space-y-2">
+                    <h5 class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                      Customer-Centricity
+                    </h5>
+                    <p class="text-white">
+                      Providing transparency to our customers about the origins
+                      and journey of our products, fostering trust and
+                      accountability.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
+            <div></div>
           </div>
         </div>
-        </div>
       </section>
-    <section className="container mx-auto py-10">
-      <CertificateSlide />
+      <section className="container mx-auto py-10">
+        <CertificateSlide />
       </section>
     </>
   );

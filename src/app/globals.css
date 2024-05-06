@@ -61,45 +61,61 @@ p {
 .hero button {
   font-family: var(--font-raleway);
 }
+.common h1 {
+  font-family: var(--font-minion);
+  color: #fff;
+  font-weight: 600;
+}
 .cm h2 {
   color: #013773;
   font-size: 38px;
   font-weight: 900;
   font-family: var(--font-minion);
 }
-.cm h2, .hero h1,
+.cm h2,
+.hero h1,
 .seller h2 {
   font-family: var(--font-minion);
 }
-
+.network h2{ font-family: var(--font-minion);font-size: 38px;}
 .bg-topcenter {
   background-position: top center;
 }
 
-.hero h1 {    text-transform: uppercase;}
+.hero h1 {
+  text-transform: uppercase;
+}
+.core h2 {
+  font-size: 38px;
+  font-weight: 900;
+  font-family: var(--font-minion);
+}
+.vissionmission h3 {
+  font-family: --font-minion;
+}
 
+.lg\:grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+}
 
 /* responsive */
-@media (min-width: 640px) { 
-  .common_outerBanner__skUp9{
-   
+@media (min-width: 640px) {
+  .common_outerBanner__skUp9 {
   }
-  .outerBanner{
-
+  .outerBanner {
   }
- }
+}
 
- @media (min-width: 768px) { 
-  .common_outerBanner__skUp9{
-   
+@media (min-width: 768px) {
+  .common_outerBanner__skUp9 {
   }
-  .outerBanner{}
+  .outerBanner {
   }
-  @media (min-width: 1024px) { 
+}
+@media (min-width: 1024px) {
+}
 
-   }
-
-   @media (min-width: 1280px) { 
-
-   }
-   @media (min-width: 1536px) {  }
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+}

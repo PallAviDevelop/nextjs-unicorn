@@ -5,13 +5,19 @@ import style from "@/app/styles/common.module.css";
 const Services = () => {
   return (
    <>
-   <div className={style["commonBgBanner"]}>
-    <div className={style.bannertitle}>
-    <h1 className={style.l_sec}>Services</h1>
-    </div>
-     
-  <div class="common_layerstyle__c8PRg"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="common_shape-fill__eGJNR"></path></svg></div>
-  </div>
+   <section className="center w-full common">
+        <div
+          class="
+		bg-no-repeat bg-cover bg-left-top
+		bg-[url('/Vector4.png')] h-[40vh]
+		xl:bg-[url('/images/Vector4.png')]
+"
+        >
+          <div className={style.bannertitle}>
+            <h1 className={style.l_sec}> Services</h1>
+          </div>
+        </div>
+      </section>
   <section className="w-full py-10">
         <div
           data-aos="fade-down"
@@ -33,9 +39,7 @@ const Services = () => {
             className="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20"
             data-v-b444fb2c=""
           >
-            {/* <p className="paragraph" data-v-b444fb2c="">
-            <span className="text-sky-500 i">At Unicorn Seafoods</span>, we transcend the ordinary to offer an extraordinary seafood experience. Our commitment to excellence starts from the source, with direct partnerships ensuring the freshest catch from fishermen and farmers worldwide.
-            </p>{" "} */}
+           
             <ul className="space-y-4 sm:space-y-2" data-v-b444fb2c="">
               <li className="space-y-2" data-v-b444fb2c="">
                 <div className="flex items-center space-x-2">
@@ -51,60 +55,129 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div class="flex gap-8 md:gap-20 items-center justify-center px-10 flex-wrap py-10  text-center">
-       <div> <Image style={{backgroundColor: '#0D86C2',color:' #fff',    padding: '10px',
-    borderRadius: '50%',}}
-                className="rounded-lg w-auto py-10 mx-auto p-10"
-                src="/images/expert 1.png"
-                width={64}
-                height={64}
-                alt="logo"
-              />
-              <h3>Global procurement expertise</h3>
+     
+      <section className="core bg-no-repeat bg-contain bg-center
+		bg-[url('/images/Group30.png')] h-[1157px] pt-16">
+      <div className="container mx-auto pt-16">
+<div className="text-center mt-[1.5rem] text-[28px] text-black font-semibold mb-4 text-white">
+<h2 className='mt-[1.5rem] text-center text-[28px] text-black font-semibold mb-4'>Our Core Strength</h2>
+            <p className='text-black'>At Unicorn Seafoods, our values guide everything we do</p>
+            </div>
+          <div class="grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border-right border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-3 lg:divide-y-0 xl:grid-cols-3">
+           
+            <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div class="relative space-y-8 p-8">
+                <img
+                  src="/images/Procurement-Icon.png"
+                  class="w-auto"
+                  width="91"
+                  height="91"
+                  alt="burger illustration"
+                />
+
+                <div class="space-y-2">
+                  <h5 class="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary">
+                  Procurement
+                  </h5>
+                  <ul class="text-gray-600 dark:text-gray-300">
+                    <li>With local partnerships across the globe, we ensure quality products at best prices with preferable payment and delivery conditions.</li>
+                    <li>Competitive pricing due to greater purchasing power</li>
+                    <li>Instant access to real-time data, market information and pricing</li>
+                    </ul>
+                </div>
               </div>
-              <div>
-               <Image style={{backgroundColor: '#0D86C2',color:' #fff',    padding: '10px',
-    borderRadius: '50%',}}
-                className="rounded-lg w-auto py-10 mx-auto p-10"
-                src="/images/quality-assurance 1.png"
-                width={64}
-                height={64}
-                alt="logo"
-              />
-              <h3>title</h3>
+            </div>
+            <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div class="relative space-y-8 p-8">
+                <img
+                  src="/images/Quality Assurance-Icon.png"
+                  class="w-auto"
+                  width="91"
+                  height="91"
+                  alt="burger illustration"
+                />
+
+                <div class="space-y-2">
+                  <h5 class="text-xl font-semibold text-gray-700 text-dark transition group-hover:text-secondary">
+                  Quality Assurance
+                  </h5>
+                  <ul class="text-gray-600 dark:text-gray-300">
+                    <li>Quality assured as per the, buying country standards</li>
+                    <li>General Quality certificates are : HACCP, GMP, BRC, IFS, FOS and ISO22000</li>
+                    <li>Thorough inspection by our local quality agents.</li>
+                    </ul>
+                </div>
               </div>
-              <div>
-               <Image style={{backgroundColor: '#0D86C2',color:' #fff',    padding: '10px',
-    borderRadius: '50%',}}
-                className="rounded-lg w-auto py-10 mx-auto p-10"
-                src="/images/fishQC.png"
-                width={64}
-                height={64}
-                alt="logo"
-              />
-              <h3>title</h3>
+            </div>
+            <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div class="relative space-y-8 p-8">
+                <img
+                  src="/images/Packaging-Icon.png"
+                  class="w-auto"
+                  width="91"
+                  height="91"
+                  alt="burger illustration"
+                />
+                <div class="space-y-2">
+                  <h5 class="text-xl font-semibold text-gray-700 text-dark transition group-hover:text-secondary">
+                  Packaging
+                  </h5>
+                  <ul class="text-gray-600 dark:text-gray-300">
+                    <li>Printing and package inventory solutions offered</li>
+                    <li>Develop and maintain printing cylinders</li>
+                    <li>Partner with local agencies for design, concept, and development</li>
+                    <li>Graphic and photography services for consumer packaging</li>
+                    </ul>
+                </div>
               </div>
-              <div>
-               <Image style={{backgroundColor: '#0D86C2',color:' #fff',    padding: '10px',
-    borderRadius: '50%',}}
-                className="rounded-lg w-auto py-10 mx-auto p-10"
-                src="/images/quality-assurance 1.png"
-                width={64}
-                height={64}
-                alt="logo"
-              /><h3>title</h3>
+            </div>
+            <div class="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div class="relative space-y-8 p-8">
+                <img
+                  src="/images/Logistics-Management-Icon.png"
+                  class="w-auto"
+                  width="91"
+                  height="91"
+                  alt="burger illustration"
+                />
+
+                <div class="space-y-2">
+                  <h5 class="text-xl font-semibold text-gray-700 text-dark transition group-hover:text-secondary">
+                  Logistics Management
+                  </h5>
+                  <ul class="text-gray-600 dark:text-gray-300">
+                    <li>Monitor raw material procurement, packaging, and order completion directly.</li>
+                    <li>Supervise shipping line operations: from scheduling shipments to cargo loading.</li>
+                    <li>Ensure smooth delivery to the final destination through direct monitoring.</li>
+                    </ul>
+                </div>
               </div>
-              <div>
-               <Image style={{backgroundColor: '#0D86C2',color:' #fff',    padding: '10px',
-    borderRadius: '50%',}}
-                className="rounded-lg w-auto py-10 mx-auto p-10"
-                src="/images/quality-assurance 1.png"
-                width={64}
-                height={64}
-                alt="logo"
-              /><h3>title</h3>
+            </div>
+            <div class="group relative">
+              <div class="relative space-y-8 p-8">
+                <img
+                  src="/images/Product-development-Icon.png"
+                  class="w-auto"
+                  width="91"
+                  height="91"
+                  alt="burger illustration"
+                />
+
+                <div class="space-y-2">
+                  <h5 class="text-xl font-semibold text-gray-700 text-dark transition group-hover:text-secondary">
+                  Product development
+                  </h5>
+                   <ul class="text-gray-600 dark:text-gray-300">
+                    <li>Facilitate buyer interaction with seafood processors</li>
+                    <li>Aid in food ingredient, flavoring, and coating manufacturing</li>
+                    <li>Support product innovation for retailers and food service</li>
+                    <li>Unicorn Sea Foods skilled in consumer trends</li>
+                    </ul>
+                </div>
               </div>
+            </div>
+          </div>
+          <div></div>
         </div>
       </section>
     

@@ -18,12 +18,12 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const company = [
-  { name: 'About Us', description: 'Get a better understanding', href: '/about', icon: ChartPieIcon },
-  { name: 'Quality Check', description: 'Dummy text', href: '/qualitycheck', icon: CursorArrowRaysIcon },
-  { name: 'Vision', description: 'Speak directly to your customers', href: '/vision', icon: CursorArrowRaysIcon },
-  { name: 'Mission', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'Services', description: 'Our services', href: '/services', icon: SquaresPlusIcon },
-  { name: 'Certificates', description: 'Build strategic', href: '/certificates', icon: ArrowPathIcon },
+  { name: 'About Us', href: '/about' },
+  { name: 'Quality Check', href: '/qualitycheck'},
+  { name: 'Vision', href: '/vision', },
+  { name: 'Mission', href: '#' },
+  { name: 'Services', href: '/services' },
+  { name: 'Certificates', href: '/certificates' },
 ]
 const callsToAction = [
   { name: 'test', href: '#', icon: PlayCircleIcon },
@@ -41,7 +41,7 @@ export default function Header() {
     <header className="bg-white">
       <nav id="nav" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-        <Link className="-m-1.5 p-1.5" href='/'><Image className="h-11 w-auto" src='/logo.png' width={169} height={52} alt='logo'/></Link>
+        <Link className="-m-1.5 p-1.5" href='/'><Image className="h-[52px] w-[169px]" src='/logo.png' width={169} height={52} alt='logo'/></Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -53,15 +53,15 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-between items-center">
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-        <Link id={style.lnk} className="text-sm font-normal leading-6 text-gray-900" href='/'>Home</Link>
-        <Link id={style.lnk} className="text-sm font-normal leading-6 text-gray-900" href='/'>Product</Link>
+        <Link className="raleway text-lg leading-6 text-gray-900" href='/'>Home</Link>
+        <Link className="raleway text-lg leading-6 text-gray-900" href='/'>Product</Link>
         
            <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-normal leading-6 text-gray-900">
-            <a href="/company">Company</a>
-              <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+            <Popover.Button className="flex items-center gap-x-1 raleway text-lg leading-6 text-gray-900">
+            <a className="relative" href="/company">Company</a>
+              <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400 raleway text-lg" aria-hidden="true" />
             </Popover.Button>
 
             <Transition
@@ -73,48 +73,34 @@ export default function Header() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute -left-8 top-[57px] z-10 mt-1 w-screen max-w-md overflow-hidden bg-white  ring-1 ring-gray-900/5 p-0">
                 <div className="p-4">
                   {company.map((item) => (
                     <div
                       key={item.name}
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                     >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
-                      </div>
+                     
                       <div className="flex-auto">
-                        <a href={item.href} className="block font-semibold text-gray-900">
+                        <a href={item.href} className="block raleway text-lg font-semibold text-gray-900">
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
-                        <p className="mt-1 text-gray-600">{item.description}</p>
+                        {/* <p className="mt-1 text-gray-600">{item.description}</p> */}
                       </div>
                     </div>
                   ))}
                 </div>
-                {/* <div className="d-none grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                  {callsToAction.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-                    >
-                      <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                      {item.name}
-                    </a>
-                  ))}
-                </div> */}
+               
               </Popover.Panel>
             </Transition>
           </Popover>       
-          <Link className="text-sm font-normal leading-6 text-gray-900 mr-1.5" href='/becomeseller'>Become a seller</Link>
-          {/* <Link className="text-sm font-semibold leading-6 text-gray-900 mr-1.5" href='/certificates'>Certificates</Link> */}
+          <Link className="raleway text-lg leading-6 text-gray-900 mr-1.5" href='/becomeseller'>Become a seller</Link>
           
         </Popover.Group>
         
-          <a href="#" className="border-sky-300 border-2 p-2 text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
+          <a href="#" className="border-sky-300 border-2 p-2 raleway text-lg leading-6 text-gray-900 leading-6">
+            Log in 
           </a>
         </div>
       </nav>
@@ -141,7 +127,7 @@ export default function Header() {
               <div className="space-y-2 py-6">
               <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </Link>
@@ -149,7 +135,7 @@ export default function Header() {
                   {({ open }) => (
                     <>
                     
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base  leading-7 text-gray-900 hover:bg-gray-50">
                         Product
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
@@ -172,7 +158,7 @@ export default function Header() {
                   )}
                 </Disclosure>
                 
-                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href='/Company'>Company</Link>
+                <Link className="-mx-3 block rounded-lg px-3 py-2 text-base leading-7 text-gray-900 hover:bg-gray-50" href='/Company'>Company</Link>
                
                 <Link
                   href="/becomeseller"
