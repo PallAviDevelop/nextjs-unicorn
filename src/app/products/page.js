@@ -139,7 +139,7 @@ to supplier</p>
                           </div>
                         </div>
                        </div>
-                      <div className="col-span-1"><a className="text-skin-base text-2xl font-semibold leading-5 min-h-[30px] line-clamp-2 mb-1.5 hover:text-skin-primary" href="#">Pacific mackerel, frozen, wr, 400-600, 1/10</a><div className="text-12px sm:text-sm mt-auto text-gray-400 mb-2">Scomber japonicus (Pacific chub mackerel)</div></div>
+                      <div className="col-span-1"><h2 className="text-skin-base text-2xl font-semibold leading-5 min-h-[30px] line-clamp-2 mb-1.5 hover:text-skin-primary" href="#">Pacific mackerel, frozen, wr, 400-600, 1/10</h2><div className="text-12px sm:text-sm mt-auto text-gray-400 mb-2">Scomber japonicus (Pacific chub mackerel)</div></div>
                       
                       </div>
                       <div className="flex gap-2">certificates
