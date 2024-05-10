@@ -147,7 +147,7 @@ const About = () => {
               <p>At Unicorn Seafoods, our values guide everything we do</p>
             </div>
             <div className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border-right border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-5">
-              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div className="group relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Quality-Icon.png"
@@ -166,7 +166,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div className="group relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Sustainability-Icon.png"
@@ -187,7 +187,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div className="group relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Sustainability-Icon.png"
@@ -207,7 +207,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="group relative dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+              <div className="group relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                 <div className="relative space-y-8 py-12 p-8">
                   <img
                     src="/images/Traceability-Icon.png"

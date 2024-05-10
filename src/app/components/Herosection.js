@@ -56,7 +56,15 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
                   </span>
                 </div>
               </div>
-              <div className={style.r_sec}></div>
+              <div className={style.r_sec}>
+                <Image
+                  className="items-center w-full h-full mx-auto"
+                  src="/images/FishPlate.png"
+                  width={588}
+                  height={473}
+                  alt="imgseller"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -178,6 +186,7 @@ const Herosection = ({ title, heading1, heading2, des1, des2, des3 }) => {
           </span>
         </div>
       </section>
+      
     </>
   );
 };

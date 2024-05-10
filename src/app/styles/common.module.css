@@ -110,13 +110,13 @@ width: calc(350% / 5 - 10px);
   fill: #FFFFFF;
 }
 .outerBanner{
-  background-image: url('/images/Banner-img.png');
+  background-image: url('/images/Banner-BG.png');
   width: 100%;
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    min-height: 855px;
+    min-height: 577px;
     margin: 0 auto;
 }
 .banner{
@@ -169,8 +169,7 @@ h1.l_sec {
 
 }
 .r_sec img{
-  max-width: 400px;
-  border-radius: 50%;
+  max-width: 588px;
 }
 .react-multi-carousel-item{
   display: flex;
