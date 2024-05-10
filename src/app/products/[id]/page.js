@@ -9,7 +9,7 @@ const SingleProduct = () => {
       <section className="bg-white pt-5">
       
         <div className="overflow-hidden shadow-sm mb-5 bg-[#F3FBFF] w-full">
-                <div className="flex flex-col md:flex-row container max-w-screen-xl mx-auto px-4">
+                <div className="flex flex-col md:flex-row container max-w-screen-xl mx-auto">
                   <div className="md:w-[400px] py-3">
                     <div
                       style={{
