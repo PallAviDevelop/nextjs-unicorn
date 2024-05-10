@@ -55,7 +55,7 @@ const Products = () => {
                           </div>
                         </div>
                        </div>
-                      <div className="col-span-1"><a className="text-skin-base text-2xl font-semibold leading-5 min-h-[30px] line-clamp-2 mb-1.5 hover:text-skin-primary" href="#">Mackerel HGT, 100-200, 1/20</a><div className="text-12px sm:text-sm mt-auto text-gray-400 mb-2">Scomber japonicus (Pacific chub mackerel)</div></div>
+                      <div className="col-span-1"><a className="text-skin-base text-2xl font-semibold leading-5 min-h-[30px] line-clamp-2 mb-1.5 hover:text-skin-primary" href="/products/mackerel-hgt">Mackerel HGT, 100-200, 1/20</a><div className="text-12px sm:text-sm mt-auto text-gray-400 mb-2">Scomber japonicus (Pacific chub mackerel)</div></div>
                       
                       </div>
                       <div className="flex gap-2">certificates
