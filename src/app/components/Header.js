@@ -39,7 +39,7 @@ export default function Header() {
 
   return (
     <header className="bg-white">
-      <nav id="nav" className="mx-auto flex max-w-7xl items-center justify-between lg:py-8 my-2" aria-label="Global">
+      <nav id="nav" className="mx-auto flex max-w-7xl items-center justify-between lg:py-7 my-4" aria-label="Global">
         <div className="flex lg:flex-1">
         <Link className="-m-1.5 p-1.5" href='/'><Image className="md:w-[128px] md:h-[40px] lg:w-[169px] xl:h-[40px] xl:w-[128px] sm:w-[60px] sm:h-[40px]" src='/logo.png' width={100} height={52} alt='logo'/></Link>
         </div>
