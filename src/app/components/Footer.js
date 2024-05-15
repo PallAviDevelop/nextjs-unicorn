@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <div className={style.footerLink}>
-        <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[3rem] mx-auto  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-[3rem]">
+        <div className="w-[100%] md:w-[100%] mt-[2rem] md:mt-[3rem] mb-[2rem] mx-auto  grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-[3rem]">
         <ul>
           <li>
             <Image src="/images/footerunicorn.png" width={263} height={81} alt="logo" />
@@ -23,7 +23,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul>
-          <h3>Quick Links</h3>
+          <h3 className="xl:text-2xl font-bold mb-5 mt-2">Quick Links</h3>
           <li>
             <Link href="products">Products</Link>
           </li>
@@ -31,19 +31,35 @@ const Footer = () => {
             <Link href="Company">Company</Link>
           </li>
           <li>
-            <Link href="bestsellers">Best sellers</Link>
+            <Link href="#Mission">Mission</Link>
+          </li>
+          <li>
+            <Link href="#Vission">Vission</Link>
+          </li>
+          <li>
+            <Link href="/becomeseller">Become A Sellers</Link>
+          </li>
+          <li>
+            <Link href="/services">Services</Link>
           </li>
         </ul>
         <ul>
+          <h3 className="xl:text-2xl font-bold mb-5 mt-2">Important Links</h3>
           <li>
-            <h3>Get in touch</h3>
-            <div>
-              {" "}
+            <Link href="/termscondition">Terms And Condition</Link>
+          </li>
+          <li>
+            <Link href="/privacy">Privacy Policy</Link>
+          </li>
+          </ul>
+        <ul>
+          
+            <h3 className="xl:text-2xl font-bold mb-5 mt-2">Get in touch</h3>
+            <li>
               <address>
                 CommA1104 Kamdhenu Aura Plot No. 17/18, Sector 4Phase 1 Taloja-
                 Navi Mumbai,Maharashtra 410208, INDIAunication
               </address>
-            </div>
           </li>
           <li>
             <Link href="#">

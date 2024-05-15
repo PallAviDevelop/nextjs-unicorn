@@ -103,6 +103,7 @@ display: none;
 .prd-spec span{
   line-height: 30px;
 }
+.swiper-pagination{display: none;}
 /* responsive */
 @media (min-width: 640px) {
   .common_outerBanner__skUp9 {

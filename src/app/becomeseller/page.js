@@ -111,18 +111,19 @@ const Becomeseller = () => {
      <div className="lg:col-span-2 bg-[#F3FBFF] rounded sm:p-10 p-4 z-20" style={{margin: '84px 0px 70px', maxHeight: '538px',padding:' 67px 102px 67px !important',}}>
                     <h2 className="text-3xl text-black text-start font-extrabold mb-6">Fill Out the Form to Become a Seller</h2>
                     <form>
-                    <div className="flex flex-col md:flex-row">
-                        <input id="name" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Name" />
-                        <input id="email" type="email" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Email" />
+                    <div className="flex flex-col md:flex-row my-3">
+                        <input id="fname" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="First Name" />
+                        <input id="lname" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Last Name" />
                     </div>
-                    <div className="flex flex-col md:flex-row">
-                        <input id="name" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Name" />
-                        <input id="email" type="email" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Email" />
+                    <div className="flex flex-col md:flex-row my-3">
+                        <input id="fname" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Email-Id" />
+                        <input id="lname" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Phone No." />
                     </div>
-                    <div className="flex flex-col md:flex-row">
-                        <input id="name" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Name" />
-                        <input id="email" type="email" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Email" />
-                        <input id="email" type="email" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Email" />
+                   
+                    <div className="flex flex-col md:flex-row my-3">
+                        <input id="country" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Country" />
+                        <input id="city" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="City" />
+                        <input id="postcode" type="text" className="my-2 py-2 px-4 rounded-md bg-white text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600" placeholder="Post Code" />
                     </div>
                         <div className="max-w-sm space-y-4 text-start">
                            

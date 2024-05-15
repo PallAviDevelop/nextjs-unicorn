@@ -10,28 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import { certificate } from "../../data/certificate";
-// import Carousel from "react-multi-carousel";
-// import "react-multi-carousel/lib/styles.css";
-// import { TRACE_OUTPUT_VERSION } from "next/dist/shared/lib/constants";
-// const responsive = {
-//   superLargeDesktop: {
-//     // the naming can be any, depends on you.
-//     breakpoint: { max: 4000, min: 3000 },
-//     items: 5,
-//   },
-//   desktop: {
-//     breakpoint: { max: 3000, min: 1324 },
-//     items: 4,
-//   },
-//   tablet: {
-//     breakpoint: { max: 1324, min: 764 },
-//     items: 3,
-//   },
-//   mobile: {
-//     breakpoint: { max: 764, min: 0 },
-//     items: 2,
-//   },
-// };
+
 
 const CertificateSlide = () => {
   return (
